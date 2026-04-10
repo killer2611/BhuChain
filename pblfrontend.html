@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BhuChain - Blockchain Land Registry</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0b0f1a;
+    color: white;
+}
+
+header {
+    padding: 20px;
+    background: #121a2b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #00ffd5;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #0b0f1a, #1c2b4a);
+}
+
+.hero h2 {
+    font-size: 40px;
+    color: #00ffd5;
+}
+
+.section {
+    padding: 60px 10%;
+}
+
+.card {
+    background: #121a2b;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.highlight {
+    color: #00ffd5;
+}
+
+button {
+    background: #00ffd5;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dashboard {
+    background: #0f172a;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #121a2b;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>BhuChain</h1>
+    <nav>
+        <a href="#problem">Problem</a>
+        <a href="#solution">Solution</a>
+        <a href="#security">Security</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#deployment">Deployment</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Decentralized Land Registry for India</h2>
+    <p>Secure. Transparent. Tamper-Proof Property Ownership</p>
+    <button>Explore System</button>
+</section>
+
+<section id="problem" class="section">
+    <h2 class="highlight">🚨 Problem Statement</h2>
+
+    <div class="card">
+        <p><b>Fraud & Duplicate Registrations:</b> Multiple ownership claims due to manual records.</p>
+        <p><b>Corruption:</b> Middlemen manipulation in land deals.</p>
+        <p><b>Lack of Transparency:</b> Citizens cannot verify ownership history.</p>
+        <p><b>Fragmented Systems:</b> Village → State data disconnected.</p>
+        <p><b>Legal Disputes:</b> Millions of pending land cases in India.</p>
+    </div>
+</section>
+
+<section id="solution" class="section">
+    <h2 class="highlight">💡 Blockchain-Based Solution</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Smart Contracts</h3>
+            <p>Automated land transfer without intermediaries.</p>
+        </div>
+
+        <div class="card">
+            <h3>Immutable Ledger</h3>
+            <p>Every transaction permanently recorded.</p>
+        </div>
+
+        <div class="card">
+            <h3>Digital Ownership Token</h3>
+            <p>Each land parcel mapped as NFT-like asset.</p>
+        </div>
+
+        <div class="card">
+            <h3>Permissioned Blockchain</h3>
+            <p>Government + verified nodes maintain control.</p>
+        </div>
+    </div>
+</section>
+
+<section id="security" class="section">
+    <h2 class="highlight">🔐 Security & Risk Mitigation</h2>
+
+    <div class="card">
+        <p><b>Fraud Prevention:</b> Ownership verified via Aadhaar + biometrics.</p>
+        <p><b>Corruption Control:</b> No manual approval manipulation.</p>
+        <p><b>51% Attack Protection:</b> Permissioned blockchain (Hyperledger Fabric).</p>
+        <p><b>Data Encryption:</b> AES-256 + hashing (SHA-256).</p>
+        <p><b>Audit Trails:</b> Every action traceable.</p>
+    </div>
+</section>
+
+<section id="architecture" class="section">
+    <h2 class="highlight">🏗 System Architecture</h2>
+
+    <div class="card">
+        <p><b>Layer 1:</b> Village Nodes (Local land officers)</p>
+        <p><b>Layer 2:</b> District Nodes</p>
+        <p><b>Layer 3:</b> State Blockchain Network</p>
+        <p><b>Layer 4:</b> National Registry</p>
+
+        <p><b>Consensus:</b> Proof of Authority (Energy Efficient)</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2 class="highlight">🏛 Government Integration</h2>
+
+    <div class="card">
+        <p><b>Aadhaar Integration:</b> Identity verification</p>
+        <p><b>DigiLocker:</b> Document storage</p>
+        <p><b>Existing Land Records:</b> Migration via digitization</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2 class="highlight">🏡 Land Marketplace</h2>
+
+    <div class="card">
+        <p><b>Buy/Sell Property:</b> Direct blockchain transactions</p>
+        <p><b>Government Land Auctions:</b> Smart contract bidding</p>
+        <p><b>Inheritance Transfers:</b> Automated via legal triggers</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2 class="highlight">📊 Admin Dashboard (Prototype)</h2>
+
+    <div class="dashboard">
+        <p>Total Registered Lands: 1,25,000</p>
+        <p>Transactions Today: 542</p>
+        <p>Fraud Attempts Blocked: 37</p>
+        <p>Active Nodes: 1,204</p>
+    </div>
+</section>
+
+<section id="deployment" class="section">
+    <h2 class="highlight">🚀 Deployment Plan</h2>
+
+    <div class="card">
+        <p><b>Phase 1:</b> Digitization of land records</p>
+        <p><b>Phase 2:</b> Pilot in 1 state</p>
+        <p><b>Phase 3:</b> Multi-state scaling</p>
+        <p><b>Phase 4:</b> National rollout</p>
+        <p><b>Phase 5:</b> Integration with banks & judiciary</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 BhuChain Project | Blockchain for Land Registry in India</p>
+</footer>
+
+</body>
+</html>
